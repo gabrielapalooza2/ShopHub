@@ -68,7 +68,7 @@ export default function ProductDetailPage() {
           <p className="text-sm text-gray-500">{product.category}</p>
           <h1 className="text-2xl font-bold">{product.title}</h1>
 
-          {/* Solo se pinta si el producto trae marca */}
+          {/* solo se muestra si el producto trae marca */}
           {product.brand && (
             <p className="text-gray-600">Marca: {product.brand}</p>
           )}
