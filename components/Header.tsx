@@ -13,9 +13,9 @@ export default function Header() {
           ShopHub
         </Link>
 
-        <p className="text-gray-700">
+        <Link href="/cart" className="text-gray-700">
           Carrito: <span className="font-bold">{totalItems}</span>
-        </p>
+        </Link>
       </div>
     </header>
   );
